@@ -1,0 +1,29 @@
+{
+  "$schema": "./schema/dapp-registry.schema.json",
+  "version": 1,
+  "dapps": [
+    {
+      "id": "wind-explorer",
+      "name": "Wind Explorer",
+      "description": "Real-time Vexanium explorer for accounts, blocks, transactions, producers, tokens, governance, and contracts.",
+      "url": "https://explorer.windcrypto.com/",
+      "icon": "assets/dapps/wind-explorer.png",
+      "chains": [
+        "vexNative",
+        "vexEvm"
+      ],
+      "categories": [
+        "explorer",
+        "tools"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-07-16"
+    }
+  ]
+}

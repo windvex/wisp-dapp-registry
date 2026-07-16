@@ -1,0 +1,13 @@
+{
+  "name": "wisp-dapp-registry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-registry.mjs",
+    "validate": "node scripts/validate-registry.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
