@@ -1,6 +1,6 @@
 # Wisp DApp Registry
 
-The community-maintained DApp directory consumed by Wisp Wallet. Developers can add a DApp by opening a pull request.
+The community-maintained, multichain DApp directory consumed by Wisp Wallet. Developers can add a DApp by opening a pull request.
 
 ## Public endpoints
 
@@ -18,7 +18,7 @@ The `icon` fields are repository-relative paths. Consumers should resolve them a
 4. Run `npm test`.
 5. Open a pull request using the provided template.
 
-Use one DApp per pull request. The DApp and developer URLs must use HTTPS. A reviewer may ask for domain or project-ownership proof.
+Use one DApp per pull request. The DApp and developer URLs must use HTTPS. A reviewer may ask for domain or project-ownership proof. Each DApp lists only the chains it actually supports; a DApp can reference one chain or many chains.
 
 Start new submissions with `featured: false` and `verified: false`. These values are controlled by registry maintainers. Being listed or verified confirms registry identity only; it is not a security audit or endorsement.
 
@@ -44,7 +44,9 @@ Start new submissions with `featured: false` and `verified: false`. These values
 }
 ```
 
-Available categories are `bridge`, `defi`, `explorer`, `games`, `governance`, `marketplace`, `nft`, `social`, `tools`, and `wallet`. Supported chain IDs are defined in `chains.json`.
+Available categories are `bridge`, `defi`, `explorer`, `games`, `governance`, `marketplace`, `nft`, `social`, `tools`, and `wallet`.
+
+Supported chain IDs are defined in `chains.json`. The initial catalog includes VEX Native, VEX EVM, Ethereum, BNB Smart Chain, Chiliz, Base, Polygon, Arbitrum One, Optimism, TRON, Bitcoin, and Solana. A new chain can be proposed by adding its metadata and square icon in the same pull request as the first DApp that needs it.
 
 ## Validation
 

@@ -3,6 +3,76 @@
   "version": 1,
   "chains": [
     {
+      "id": "arbitrum",
+      "name": "Arbitrum One",
+      "namespace": "evm",
+      "chainId": "42161",
+      "icon": "assets/chains/arbitrum.png"
+    },
+    {
+      "id": "base",
+      "name": "Base",
+      "namespace": "evm",
+      "chainId": "8453",
+      "icon": "assets/chains/base.png"
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "namespace": "bitcoin",
+      "chainId": "bitcoin-mainnet",
+      "icon": "assets/chains/bitcoin.png"
+    },
+    {
+      "id": "bnb",
+      "name": "BNB Smart Chain",
+      "namespace": "evm",
+      "chainId": "56",
+      "icon": "assets/chains/bnb.png"
+    },
+    {
+      "id": "chiliz",
+      "name": "Chiliz",
+      "namespace": "evm",
+      "chainId": "88888",
+      "icon": "assets/chains/chiliz.png"
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "namespace": "evm",
+      "chainId": "1",
+      "icon": "assets/chains/ethereum.png"
+    },
+    {
+      "id": "optimism",
+      "name": "Optimism",
+      "namespace": "evm",
+      "chainId": "10",
+      "icon": "assets/chains/optimism.png"
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "namespace": "evm",
+      "chainId": "137",
+      "icon": "assets/chains/polygon.png"
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "namespace": "solana",
+      "chainId": "solana-mainnet",
+      "icon": "assets/chains/solana.png"
+    },
+    {
+      "id": "tron",
+      "name": "TRON",
+      "namespace": "tron",
+      "chainId": "tron-mainnet",
+      "icon": "assets/chains/tron.png"
+    },
+    {
       "id": "vexEvm",
       "name": "VEX EVM",
       "namespace": "evm",

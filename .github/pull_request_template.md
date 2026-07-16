@@ -25,6 +25,7 @@ Provide an official website page, repository, DNS record, signed account message
 - [ ] The DApp and developer URLs use HTTPS.
 - [ ] The icon is square, is 512 KB or smaller, and I have permission to submit it.
 - [ ] Chain and category values exist in the registry.
+- [ ] The `chains` array includes only networks the submitted DApp actually supports.
 - [ ] `featured` and `verified` are `false` unless a maintainer requested otherwise.
 - [ ] The DApp never asks users for seed phrases or private keys.
 - [ ] I understand that submission does not guarantee acceptance or endorsement.
