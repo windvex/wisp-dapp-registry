@@ -24,6 +24,27 @@
       "featured": true,
       "verified": true,
       "addedAt": "2026-07-16"
+    },
+    {
+      "id": "wind-swap",
+      "name": "WindSwap",
+      "description": "Swap Vexanium tokens and manage liquidity through the audited WindSwap V2 AMM.",
+      "url": "https://swap.windcrypto.com/",
+      "icon": "assets/dapps/wind-swap.png",
+      "chains": [
+        "vexNative"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-08-21"
     }
   ]
 }
