@@ -26,6 +26,27 @@
       "addedAt": "2026-07-16"
     },
     {
+      "id": "wind-realms",
+      "name": "Wind Realms",
+      "description": "A living VEX Native strategy realm with persistent kingdoms, alliances, world combat, heroes, and real WIND utility.",
+      "url": "https://realm.windcrypto.com/",
+      "icon": "assets/dapps/wind-realms.png",
+      "chains": [
+        "vexNative"
+      ],
+      "categories": [
+        "games"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-08-30"
+    },
+    {
       "id": "wind-swap",
       "name": "WindSwap",
       "description": "Swap Vexanium tokens and manage liquidity through the audited WindSwap V2 AMM.",
