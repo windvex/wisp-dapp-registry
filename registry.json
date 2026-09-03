@@ -50,7 +50,7 @@
       "id": "wind-swap",
       "name": "WindSwap",
       "description": "Swap Vexanium tokens and manage liquidity through the audited WindSwap V2 AMM.",
-      "url": "https://swap.windcrypto.com/",
+      "url": "https://swap.windcrypto.com/swap?input=vex.token%3AVEX&output=token.wind%3AWIND",
       "icon": "assets/dapps/wind-swap.png",
       "chains": [
         "vexNative"
