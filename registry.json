@@ -66,6 +66,28 @@
       "featured": true,
       "verified": true,
       "addedAt": "2026-08-21"
+    },
+    {
+      "id": "wind-launch",
+      "name": "Wind Launch",
+      "description": "Create and launch tokens on VEX Native and VEX EVM with signing kept inside Wisp Wallet.",
+      "url": "https://launch.windcrypto.com/",
+      "icon": "assets/dapps/wind-launch.png",
+      "chains": [
+        "vexNative",
+        "vexEvm"
+      ],
+      "categories": [
+        "tools"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-09-21"
     }
   ]
 }
