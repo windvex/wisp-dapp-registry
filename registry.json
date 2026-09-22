@@ -26,6 +26,28 @@
       "addedAt": "2026-07-16"
     },
     {
+      "id": "wind-launch",
+      "name": "Wind Launch",
+      "description": "Create and launch tokens on VEX Native and VEX EVM with signing kept inside Wisp Wallet.",
+      "url": "https://launch.windcrypto.com/",
+      "icon": "assets/dapps/wind-launch.png",
+      "chains": [
+        "vexNative",
+        "vexEvm"
+      ],
+      "categories": [
+        "tools"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-09-21"
+    },
+    {
       "id": "wind-realms",
       "name": "Wind Realms",
       "description": "A living VEX Native strategy realm with persistent kingdoms, alliances, world combat, heroes, and real WIND utility.",
@@ -68,17 +90,16 @@
       "addedAt": "2026-08-21"
     },
     {
-      "id": "wind-launch",
-      "name": "Wind Launch",
-      "description": "Create and launch tokens on VEX Native and VEX EVM with signing kept inside Wisp Wallet.",
-      "url": "https://launch.windcrypto.com/",
-      "icon": "assets/dapps/wind-launch.png",
+      "id": "wisp-space-run",
+      "name": "Wisp Space Run",
+      "description": "Arcade survival game for Wisp Rewards with verified scores, leaderboards, missions, and WIND run packs.",
+      "url": "https://space.windcrypto.com/",
+      "icon": "assets/dapps/wisp-space-run.png",
       "chains": [
-        "vexNative",
-        "vexEvm"
+        "vexNative"
       ],
       "categories": [
-        "tools"
+        "games"
       ],
       "developer": {
         "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
@@ -87,7 +108,7 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-21"
+      "addedAt": "2026-09-22"
     }
   ]
 }
