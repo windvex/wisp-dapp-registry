@@ -4,7 +4,10 @@
   "title": "Wisp DApp Registry",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "dapps"],
+  "required": [
+    "version",
+    "dapps"
+  ],
   "properties": {
     "$schema": {
       "type": "string"
@@ -97,7 +100,10 @@
         "developer": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["name", "url"],
+          "required": [
+            "name",
+            "url"
+          ],
           "properties": {
             "name": {
               "type": "string",
@@ -110,7 +116,11 @@
           }
         },
         "status": {
-          "enum": ["active", "beta", "inactive"]
+          "enum": [
+            "active",
+            "beta",
+            "inactive"
+          ]
         },
         "featured": {
           "type": "boolean"
@@ -122,6 +132,17 @@
           "type": "string",
           "format": "date",
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "providerChains": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "vexNative",
+              "vexEvm"
+            ]
+          },
+          "description": "Optional, separately approved chain-specific embedded wallet provider permissions. Not implied by listing or verified."
         }
       }
     }
