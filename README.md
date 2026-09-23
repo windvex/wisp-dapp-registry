@@ -20,7 +20,17 @@ The `icon` fields are repository-relative paths. Consumers should resolve them a
 
 Use one DApp per pull request. The DApp and developer URLs must use HTTPS. A reviewer may ask for domain or project-ownership proof. Each DApp lists only the chains it actually supports; a DApp can reference one chain or many chains.
 
-Start new submissions with `featured: false` and `verified: false`. These values are controlled by registry maintainers. Being listed or verified confirms registry identity only; it is not a security audit or endorsement.
+Start new submissions with `featured: false`, `verified: false`, and no `providerChains`. These values are controlled by registry maintainers. Being listed or verified confirms registry identity only; it is not a security audit or endorsement.
+
+## Request embedded Wisp Wallet provider access
+
+The **remote registry is the single approval source**. Developers never need a wallet source edit, per-DApp bundle entry, or wallet redeployment to add a new DApp. Registration and embedding permissions are intentionally separate:
+
+- **Listed:** any valid registry entry appears in the DApp catalog (unless inactive); browsing does not grant wallet access.
+- **Verified:** maintainers confirmed the project's claimed origin/identity; this alone does not authorize signing.
+- **`providerChains`:** optional, maintainer-reviewed array such as `["vexNative"]`, `["vexEvm"]`, or both. Include only chains already declared in `chains`. The registry validator requires an active, verified entry. Ask for this grant in your PR and supply proof you control the exact HTTPS origin. Maintainers must review it independently of verification; it is not a smart-contract audit.
+
+Once the reviewed PR merges into `main`, Wisp Wallet refreshes the approved remote policy without a release. The wallet validates the exact iframe origin, chain and live permission at **request time**, and still requires user consent to connect/sign. For security, a stale or unavailable remote policy may show catalog entries but cannot authorize new provider requests. A short-lived last-known-good cache (up to 15 minutes) supports brief connectivity outages; removal/revocation propagates on the next successful refresh, which is normally within 15 minutes. Emergency origin revocation remains available in the wallet release. Never request wallet permissions through URL/query or an unreviewed redirect; all grants are keyed to the registered origin.
 
 ## Entry example
 
