@@ -85,6 +85,8 @@ if (!Array.isArray(registry?.dapps)) issue('registry.json.dapps', 'must be an ar
 
 const dappIds = new Set();
 const dappUrls = new Set();
+const dappOrigins = new Set();
+const providerChains = new Set(['vexNative', 'vexEvm']);
 const allowedCategories = new Set(['bridge', 'defi', 'explorer', 'games', 'governance', 'marketplace', 'nft', 'social', 'tools', 'wallet']);
 
 for (const [index, dapp] of dapps.entries()) {
@@ -108,6 +110,11 @@ for (const [index, dapp] of dapps.entries()) {
   if (!isHttpsUrl(dapp.url)) issue(`${at}.url`, 'must be a credential-free HTTPS URL');
   if (dappUrls.has(dapp.url)) issue(`${at}.url`, `duplicate DApp URL: ${dapp.url}`);
   dappUrls.add(dapp.url);
+  if (isHttpsUrl(dapp.url)) {
+    const origin = new URL(dapp.url).origin;
+    if (dappOrigins.has(origin)) issue(`${at}.url`, `duplicate DApp origin: ${origin}`);
+    dappOrigins.add(origin);
+  }
   await validateAsset(dapp.icon, `${at}.icon`, 'assets/dapps/');
 
   if (!Array.isArray(dapp.chains) || !dapp.chains.length) {
@@ -133,6 +140,23 @@ for (const [index, dapp] of dapps.entries()) {
   } else {
     if (typeof dapp.developer.name !== 'string' || dapp.developer.name.length < 2) issue(`${at}.developer.name`, 'is required');
     if (!isHttpsUrl(dapp.developer.url)) issue(`${at}.developer.url`, 'must be a credential-free HTTPS URL');
+  }
+  if (dapp.providerChains !== undefined) {
+    if (!Array.isArray(dapp.providerChains)) {
+      issue(`${at}.providerChains`, 'must be an array');
+    } else {
+      if (new Set(dapp.providerChains).size !== dapp.providerChains.length) {
+        issue(`${at}.providerChains`, 'must not contain duplicates');
+      }
+      for (const chain of dapp.providerChains) {
+        if (!providerChains.has(chain) || !dapp.chains?.includes(chain)) {
+          issue(`${at}.providerChains`, `unlisted or unsupported provider chain: ${chain}`);
+        }
+      }
+      if (dapp.providerChains.length > 0 && (!dapp.verified || dapp.status !== 'active')) {
+        issue(`${at}.providerChains`, 'provider access requires active status and separately approved verified origin');
+      }
+    }
   }
   if (!['active', 'beta', 'inactive'].includes(dapp.status)) issue(`${at}.status`, 'must be active, beta, or inactive');
   if (typeof dapp.featured !== 'boolean') issue(`${at}.featured`, 'must be boolean');
