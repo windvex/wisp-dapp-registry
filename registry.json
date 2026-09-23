@@ -90,6 +90,27 @@
       "addedAt": "2026-08-21"
     },
     {
+      "id": "wisp-arena",
+      "name": "Wisp Arena",
+      "description": "Competitive multiplayer games with one verified Wisp identity, shared progression, and trusted match results.",
+      "url": "https://arena.windcrypto.com/",
+      "icon": "assets/dapps/wisp-arena.png",
+      "chains": [
+        "vexNative"
+      ],
+      "categories": [
+        "games"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-09-23"
+    },
+    {
       "id": "wisp-space-run",
       "name": "Wisp Space Run",
       "description": "Arcade survival game for Wisp Rewards with verified scores, leaderboards, missions, and WIND run packs.",
