@@ -23,7 +23,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-07-16"
+      "addedAt": "2026-07-16",
+      "providerChains": [
+        "vexNative",
+        "vexEvm"
+      ]
     },
     {
       "id": "wind-launch",
@@ -45,7 +49,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-21"
+      "addedAt": "2026-09-21",
+      "providerChains": [
+        "vexNative",
+        "vexEvm"
+      ]
     },
     {
       "id": "wind-realms",
@@ -87,7 +95,10 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-08-21"
+      "addedAt": "2026-08-21",
+      "providerChains": [
+        "vexNative"
+      ]
     },
     {
       "id": "wisp-space-run",
@@ -108,7 +119,10 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-22"
+      "addedAt": "2026-09-22",
+      "providerChains": [
+        "vexNative"
+      ]
     }
   ]
 }
