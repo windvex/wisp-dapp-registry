@@ -2,6 +2,17 @@
 
 The community-maintained, multichain DApp directory consumed by Wisp Wallet. Developers can add a DApp by opening a pull request.
 
+**The registry is discovery metadata, not a wallet permission system or an allowlist.**
+Any safely opened HTTPS DApp can use Wisp Wallet's supported provider interfaces
+without being listed or verified here. Users explicitly authorize account
+connections and signing requests inside their wallet. Listing only controls
+whether an app appears in Explore, plus its catalog description, supported-chain
+badges, icon, and optional verified display badge. Removing an entry or marking
+it inactive hides it from the directory; it does not block visiting its URL or
+revoke user-granted wallet sessions. Provider security is independently enforced
+by the wallet using exact origins, chain support, permissions, and user approval.
+Developers use the WindStack SDK regardless of listing status.
+
 ## Public endpoints
 
 - Registry: `https://raw.githubusercontent.com/windvex/wisp-dapp-registry/main/registry.json`
