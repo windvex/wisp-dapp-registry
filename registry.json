@@ -3,6 +3,27 @@
   "version": 1,
   "dapps": [
     {
+      "id": "wind-dex",
+      "name": "WIND DEX",
+      "description": "Trade spot markets on Vexanium with live order books, charts, and wallet connectivity.",
+      "url": "https://dex.windcrypto.com/",
+      "icon": "assets/dapps/wind-dex.png",
+      "chains": [
+        "vexNative"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": true,
+      "verified": true,
+      "addedAt": "2026-10-02"
+    },
+    {
       "id": "wind-explorer",
       "name": "Wind Explorer",
       "description": "Real-time Vexanium explorer for accounts, blocks, transactions, producers, tokens, governance, and contracts.",
