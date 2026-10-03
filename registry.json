@@ -24,6 +24,28 @@
       "addedAt": "2026-10-02"
     },
     {
+      "id": "wind-dex-listing",
+      "name": "WIND DEX Listing",
+      "description": "Launch TOKEN/VEX markets on WIND DEX with wallet-owned funding, committed liquidity, and automated market provisioning.",
+      "url": "https://list.windcrypto.com/",
+      "icon": "assets/dapps/wind-dex.png",
+      "chains": [
+        "vexNative"
+      ],
+      "categories": [
+        "defi",
+        "tools"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-10-03"
+    },
+    {
       "id": "wind-explorer",
       "name": "Wind Explorer",
       "description": "Real-time Vexanium explorer for accounts, blocks, transactions, producers, tokens, governance, and contracts.",
