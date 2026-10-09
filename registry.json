@@ -3,6 +3,28 @@
   "version": 1,
   "dapps": [
     {
+      "id": "wind-assets",
+      "name": "WIND Assets",
+      "description": "Register and update VEX Native or VEX EVM token metadata using one Wisp Wallet signed form.",
+      "url": "https://assets.windcrypto.com/",
+      "icon": "assets/dapps/wind-assets.png",
+      "chains": [
+        "vexNative",
+        "vexEvm"
+      ],
+      "categories": [
+        "tools"
+      ],
+      "developer": {
+        "name": "PT WIND KRIPTOGRAFI TEKNOLOGI",
+        "url": "https://windcrypto.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-10-09"
+    },
+    {
       "id": "wind-dex",
       "name": "WIND DEX",
       "description": "Trade spot markets on Vexanium with live order books, charts, and wallet connectivity.",
