@@ -45,6 +45,13 @@
       "icon": "assets/chains/ethereum.png"
     },
     {
+      "id": "hyperliquid",
+      "name": "HyperEVM",
+      "namespace": "evm",
+      "chainId": "999",
+      "icon": "assets/chains/hyperliquid.png"
+    },
+    {
       "id": "optimism",
       "name": "Optimism",
       "namespace": "evm",

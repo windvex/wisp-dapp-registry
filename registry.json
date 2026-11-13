@@ -3,6 +3,524 @@
   "version": 1,
   "dapps": [
     {
+      "id": "1inch",
+      "name": "1inch",
+      "description": "Discover token swap routes across supported decentralized exchanges.",
+      "url": "https://1inch.com/",
+      "icon": "assets/dapps/1inch.png",
+      "chains": [
+        "ethereum",
+        "bnb",
+        "polygon",
+        "arbitrum",
+        "optimism",
+        "base"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "1inch Network",
+        "url": "https://1inch.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "aave",
+      "name": "Aave",
+      "description": "Supply crypto assets and borrow against collateral in supported markets.",
+      "url": "https://app.aave.com/",
+      "icon": "assets/dapps/aave.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Aave",
+        "url": "https://aave.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "across",
+      "name": "Across",
+      "description": "Move assets between supported networks through cross-chain transfers.",
+      "url": "https://across.to/",
+      "icon": "assets/dapps/across.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "bridge"
+      ],
+      "developer": {
+        "name": "Across Protocol",
+        "url": "https://across.to/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "aerodrome",
+      "name": "Aerodrome",
+      "description": "Swap tokens and provide liquidity on Base.",
+      "url": "https://aerodrome.finance/",
+      "icon": "assets/dapps/aerodrome.png",
+      "chains": [
+        "base"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Aerodrome Finance",
+        "url": "https://aerodrome.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "compound",
+      "name": "Compound",
+      "description": "Supply collateral and borrow supported assets through Compound.",
+      "url": "https://app.compound.xyz/",
+      "icon": "assets/dapps/compound.png",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Compound Finance",
+        "url": "https://compound.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "curve",
+      "name": "Curve",
+      "description": "Trade stable and correlated assets through decentralized liquidity pools.",
+      "url": "https://curve.finance/",
+      "icon": "assets/dapps/curve.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Curve Finance",
+        "url": "https://curve.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "debank",
+      "name": "DeBank",
+      "description": "View wallet portfolios, DeFi positions, and activity across EVM chains.",
+      "url": "https://debank.com/",
+      "icon": "assets/dapps/debank.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "bnb",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "tools"
+      ],
+      "developer": {
+        "name": "DeBank",
+        "url": "https://debank.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "dydx",
+      "name": "dYdX",
+      "description": "Connect an EVM or Solana wallet to access perpetual trading on dYdX Chain.",
+      "url": "https://dydx.trade/",
+      "icon": "assets/dapps/dydx.png",
+      "chains": [
+        "ethereum",
+        "solana"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "dYdX",
+        "url": "https://dydx.trade/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "ether-fi",
+      "name": "ether.fi",
+      "description": "Stake ETH and explore liquid restaking products.",
+      "url": "https://app.ether.fi/",
+      "icon": "assets/dapps/ether-fi.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "ether.fi",
+        "url": "https://ether.fi/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "gmx",
+      "name": "GMX",
+      "description": "Trade perpetual futures and manage positions on decentralized markets.",
+      "url": "https://app.gmx.io/",
+      "icon": "assets/dapps/gmx.png",
+      "chains": [
+        "arbitrum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "GMX",
+        "url": "https://gmx.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "hyperliquid",
+      "name": "Hyperliquid",
+      "description": "Trade spot and perpetual markets on HyperCore and connect from Arbitrum.",
+      "url": "https://app.hyperliquid.xyz/",
+      "icon": "assets/dapps/hyperliquid.png",
+      "chains": [
+        "hyperliquid",
+        "arbitrum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Hyperliquid",
+        "url": "https://hyperliquid.xyz/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "jumper",
+      "name": "Jumper",
+      "description": "Bridge and swap assets across supported blockchain networks.",
+      "url": "https://jumper.xyz/",
+      "icon": "assets/dapps/jumper.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "bnb",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "bridge"
+      ],
+      "developer": {
+        "name": "LI.FI",
+        "url": "https://li.fi/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "description": "Stake ETH and receive liquid staking tokens through Lido.",
+      "url": "https://stake.lido.fi/",
+      "icon": "assets/dapps/lido.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Lido",
+        "url": "https://lido.fi/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "magic-eden",
+      "name": "Magic Eden",
+      "description": "Explore NFT collections and digital assets across supported networks.",
+      "url": "https://magiceden.io/",
+      "icon": "assets/dapps/magic-eden.png",
+      "chains": [
+        "solana",
+        "bitcoin",
+        "ethereum"
+      ],
+      "categories": [
+        "nft",
+        "marketplace"
+      ],
+      "developer": {
+        "name": "Magic Eden",
+        "url": "https://magiceden.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "morpho",
+      "name": "Morpho",
+      "description": "Explore lending markets and curated vaults across supported chains.",
+      "url": "https://app.morpho.org/",
+      "icon": "assets/dapps/morpho.png",
+      "chains": [
+        "ethereum",
+        "base"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Morpho",
+        "url": "https://morpho.org/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "opensea",
+      "name": "OpenSea",
+      "description": "Discover, collect, and trade digital collectibles and NFTs.",
+      "url": "https://opensea.io/",
+      "icon": "assets/dapps/opensea.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "polygon",
+        "solana"
+      ],
+      "categories": [
+        "nft",
+        "marketplace"
+      ],
+      "developer": {
+        "name": "OpenSea",
+        "url": "https://opensea.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "pancakeswap",
+      "name": "PancakeSwap",
+      "description": "Swap tokens, provide liquidity, and explore decentralized markets.",
+      "url": "https://pancakeswap.finance/",
+      "icon": "assets/dapps/pancakeswap.png",
+      "chains": [
+        "bnb",
+        "ethereum",
+        "base",
+        "arbitrum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "PancakeSwap",
+        "url": "https://pancakeswap.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "revoke-cash",
+      "name": "Revoke.cash",
+      "description": "Inspect and revoke token approvals and wallet permissions.",
+      "url": "https://revoke.cash/",
+      "icon": "assets/dapps/revoke-cash.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "bnb",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "tools"
+      ],
+      "developer": {
+        "name": "Revoke.cash",
+        "url": "https://revoke.cash/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "rocket-pool",
+      "name": "Rocket Pool",
+      "description": "Stake ETH using the Rocket Pool liquid staking protocol.",
+      "url": "https://stake.rocketpool.net/",
+      "icon": "assets/dapps/rocket-pool.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Rocket Pool",
+        "url": "https://rocketpool.net/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate",
+      "description": "Transfer supported assets between networks using cross-chain liquidity.",
+      "url": "https://stargate.finance/",
+      "icon": "assets/dapps/stargate.png",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base",
+        "bnb",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "bridge"
+      ],
+      "developer": {
+        "name": "Stargate Finance",
+        "url": "https://stargate.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "description": "Swap tokens and access liquidity pools across supported EVM networks.",
+      "url": "https://app.uniswap.org/",
+      "icon": "assets/dapps/uniswap.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "bnb"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Uniswap Labs",
+        "url": "https://uniswap.org/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "description": "Supply assets and borrow through decentralized lending markets.",
+      "url": "https://venus.io/",
+      "icon": "assets/dapps/venus.png",
+      "chains": [
+        "bnb"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Venus Protocol",
+        "url": "https://venus.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
+    },
+    {
       "id": "wind-assets",
       "name": "WIND Assets",
       "description": "Register and update VEX Native or VEX EVM token metadata using one Wisp Wallet signed form.",
@@ -174,6 +692,28 @@
       "featured": true,
       "verified": true,
       "addedAt": "2026-09-22"
+    },
+    {
+      "id": "zora",
+      "name": "Zora",
+      "description": "Create, discover, and trade content and creator coins on Base.",
+      "url": "https://zora.co/",
+      "icon": "assets/dapps/zora.png",
+      "chains": [
+        "base"
+      ],
+      "categories": [
+        "nft",
+        "social"
+      ],
+      "developer": {
+        "name": "Zora",
+        "url": "https://zora.co/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-13"
     }
   ]
 }
