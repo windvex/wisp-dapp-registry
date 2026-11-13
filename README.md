@@ -43,6 +43,7 @@ Start new submissions with `featured: false` and `verified: false`. These values
   "url": "https://example.com/",
   "icon": "assets/dapps/example-swap.png",
   "chains": ["vexEvm"],
+  "supportedClients": ["android"],
   "categories": ["defi"],
   "developer": {
     "name": "Example Labs",
@@ -70,3 +71,36 @@ The dependency-free validator checks required fields, duplicate IDs and URLs, HT
 ## License
 
 MIT
+
+## Client compatibility
+
+Every entry declares `supportedClients: ["android"]`, `["telegram"]`, or
+`["android", "telegram"]`. Consumers must reject entries missing client metadata and
+filter by their client before exposing catalog data, including cached and bundled
+snapshots. Unknown, missing, empty, or duplicate client values are invalid. A
+registry identity badge does not establish runtime compatibility.
+
+Android supports native WebView injection and EVM WalletConnect. Telegram uses
+WindStack frame providers and the Wisp Telegram VEX transport; it cannot inject
+an EIP-1193 provider into arbitrary third-party sites. A Telegram entry requires
+evidence that the DApp implements a compatible frame or Telegram transport.
+Merely loading a URL, exposing `window.ethereum`, or using Telegram WebApp APIs
+is insufficient. Unproven compatibility stays Android-only.
+
+The initial Telegram classification was audited against the production source:
+Wind Assets (`web/src/wisp.js`), Wind DEX (`src/features/wallet/embedded.ts`),
+Wind DEX Listing (`src/embedded.ts`, `src/WalletProvider.tsx`), Wind Explorer
+(`src/features/wallet/wispEmbeddedProvider.ts`), Wind Launch and Wind Swap
+(`src/features/wallet/wispEmbeddedProvider.ts`), Wisp Arena
+(`apps/web/src/wisp.ts`), and Wisp Space Run (`src/services/wispWallet.js`).
+These implement WindStack frame or Telegram handoff integration. This records
+protocol integration evidence; it is not a claim that every transaction has
+passed live QA. General EVM protocols, including PancakeSwap and Uniswap, remain
+Android-only until equivalent Telegram integration is demonstrated.
+
+`registry.json` is the sole maintained catalog. Telegram's bundled offline
+snapshot must be copied from it when updating the catalog; it is never edited
+as a separate list. All sources pass the same strict parser and client filter.
+The additive `supportedClients` field keeps wire version 1 readable by published
+Android APKs; cache/query revision 2 invalidates unclassified client data.
+Neither registry membership nor this client filter grants wallet permissions.

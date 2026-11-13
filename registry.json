@@ -26,7 +26,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "aave",
@@ -51,7 +54,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "across",
@@ -76,7 +82,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "aerodrome",
@@ -97,7 +106,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "compound",
@@ -119,7 +131,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "curve",
@@ -144,7 +159,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "debank",
@@ -170,7 +188,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "dydx",
@@ -192,7 +213,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "ether-fi",
@@ -213,7 +237,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "gmx",
@@ -234,7 +261,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "hyperliquid",
@@ -256,7 +286,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "jumper",
@@ -282,7 +315,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "lido",
@@ -303,7 +339,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "magic-eden",
@@ -327,7 +366,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "morpho",
@@ -349,7 +391,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "opensea",
@@ -374,7 +419,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "pancakeswap",
@@ -398,7 +446,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "revoke-cash",
@@ -424,7 +475,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "rocket-pool",
@@ -445,7 +499,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "stargate",
@@ -471,7 +528,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "uniswap",
@@ -497,7 +557,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "venus",
@@ -518,7 +581,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     },
     {
       "id": "wind-assets",
@@ -540,7 +606,11 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-10-09"
+      "addedAt": "2026-10-09",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wind-dex",
@@ -561,7 +631,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-10-02"
+      "addedAt": "2026-10-02",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wind-dex-listing",
@@ -583,7 +657,11 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-10-03"
+      "addedAt": "2026-10-03",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wind-explorer",
@@ -606,7 +684,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-07-16"
+      "addedAt": "2026-07-16",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wind-launch",
@@ -628,7 +710,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-21"
+      "addedAt": "2026-09-21",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wind-swap",
@@ -649,7 +735,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-08-21"
+      "addedAt": "2026-08-21",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wisp-arena",
@@ -670,7 +760,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-23"
+      "addedAt": "2026-09-23",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "wisp-space-run",
@@ -691,7 +785,11 @@
       "status": "active",
       "featured": true,
       "verified": true,
-      "addedAt": "2026-09-22"
+      "addedAt": "2026-09-22",
+      "supportedClients": [
+        "android",
+        "telegram"
+      ]
     },
     {
       "id": "zora",
@@ -713,7 +811,10 @@
       "status": "active",
       "featured": false,
       "verified": false,
-      "addedAt": "2026-11-13"
+      "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
     }
   ]
 }

@@ -94,9 +94,18 @@ for (const [index, dapp] of dapps.entries()) {
     continue;
   }
 
-  const required = ['id', 'name', 'description', 'url', 'icon', 'chains', 'categories', 'developer', 'status', 'featured', 'verified', 'addedAt'];
+  const required = ['id', 'name', 'description', 'url', 'icon', 'chains', 'categories', 'developer', 'status', 'featured', 'verified', 'addedAt', 'supportedClients'];
   for (const field of required) {
     if (!(field in dapp)) issue(`${at}.${field}`, 'is required');
+  }
+
+  for (const field of Object.keys(dapp)) {
+    if (!required.includes(field)) issue(`${at}.${field}`, 'is unsupported');
+  }
+  if (!Array.isArray(dapp.supportedClients) || !dapp.supportedClients.length
+      || dapp.supportedClients.some(client => !['android', 'telegram'].includes(client))
+      || new Set(dapp.supportedClients).size !== dapp.supportedClients.length) {
+    issue(`${at}.supportedClients`, 'must contain unique android and/or telegram clients');
   }
 
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(dapp.id || '')) issue(`${at}.id`, 'must be lowercase kebab-case');
