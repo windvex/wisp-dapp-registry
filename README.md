@@ -116,8 +116,7 @@ Popularity and published audits do not establish that an application is risk-fre
 
 Chiliz application URLs are linked from [Chiliz](https://www.chiliz.com/) and its
 [staking documentation](https://docs.chiliz.com/learn/about-staking/stake-your-chz).
-The catalog includes Kayen Finance and the official bridge, staking portal, and
-explorer. Revoke.cash documents Chiliz in its [supported networks](https://revoke.cash/learn/faq).
+The catalog includes Kayen Finance and the official bridge and staking portal. Revoke.cash documents Chiliz in its [supported networks](https://revoke.cash/learn/faq).
 These entries support Android; Telegram compatibility remains unproven.
 
 Network metadata should follow current deployments, for example

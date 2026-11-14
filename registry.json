@@ -112,54 +112,6 @@
       ]
     },
     {
-      "id": "arbiscan",
-      "name": "Arbiscan",
-      "description": "Explore transactions, accounts, tokens, and contracts on Arbitrum One.",
-      "url": "https://arbiscan.io/",
-      "icon": "assets/dapps/arbiscan.png",
-      "chains": [
-        "arbitrum"
-      ],
-      "categories": [
-        "explorer"
-      ],
-      "developer": {
-        "name": "Etherscan",
-        "url": "https://etherscan.io/"
-      },
-      "status": "active",
-      "featured": false,
-      "verified": false,
-      "addedAt": "2026-11-15",
-      "supportedClients": [
-        "android"
-      ]
-    },
-    {
-      "id": "basescan",
-      "name": "BaseScan",
-      "description": "Explore transactions, accounts, tokens, and contracts on Base.",
-      "url": "https://basescan.org/",
-      "icon": "assets/dapps/basescan.png",
-      "chains": [
-        "base"
-      ],
-      "categories": [
-        "explorer"
-      ],
-      "developer": {
-        "name": "Etherscan",
-        "url": "https://etherscan.io/"
-      },
-      "status": "active",
-      "featured": false,
-      "verified": false,
-      "addedAt": "2026-11-15",
-      "supportedClients": [
-        "android"
-      ]
-    },
-    {
       "id": "beefy",
       "name": "Beefy",
       "description": "Explore automated yield vaults and manage supported DeFi positions.",
@@ -189,30 +141,6 @@
       ]
     },
     {
-      "id": "bscscan",
-      "name": "BscScan",
-      "description": "Explore transactions, accounts, tokens, and contracts on BNB Smart Chain.",
-      "url": "https://bscscan.com/",
-      "icon": "assets/dapps/bscscan.png",
-      "chains": [
-        "bnb"
-      ],
-      "categories": [
-        "explorer"
-      ],
-      "developer": {
-        "name": "Etherscan",
-        "url": "https://etherscan.io/"
-      },
-      "status": "active",
-      "featured": false,
-      "verified": false,
-      "addedAt": "2026-11-15",
-      "supportedClients": [
-        "android"
-      ]
-    },
-    {
       "id": "chiliz-bridge",
       "name": "Chiliz Bridge",
       "description": "Bridge supported assets between Chiliz Chain and other available networks.",
@@ -225,30 +153,6 @@
       ],
       "categories": [
         "bridge"
-      ],
-      "developer": {
-        "name": "Chiliz",
-        "url": "https://www.chiliz.com/"
-      },
-      "status": "active",
-      "featured": false,
-      "verified": false,
-      "addedAt": "2026-11-14",
-      "supportedClients": [
-        "android"
-      ]
-    },
-    {
-      "id": "chiliz-explorer",
-      "name": "Chiliz Explorer",
-      "description": "Explore transactions, accounts, tokens, and contracts on Chiliz Chain.",
-      "url": "https://scan.chiliz.com/",
-      "icon": "assets/dapps/chiliz.png",
-      "chains": [
-        "chiliz"
-      ],
-      "categories": [
-        "explorer"
       ],
       "developer": {
         "name": "Chiliz",
@@ -520,30 +424,6 @@
       "featured": false,
       "verified": false,
       "addedAt": "2026-11-13",
-      "supportedClients": [
-        "android"
-      ]
-    },
-    {
-      "id": "etherscan",
-      "name": "Etherscan",
-      "description": "Explore transactions, accounts, tokens, and contracts on Ethereum.",
-      "url": "https://etherscan.io/",
-      "icon": "assets/dapps/etherscan.png",
-      "chains": [
-        "ethereum"
-      ],
-      "categories": [
-        "explorer"
-      ],
-      "developer": {
-        "name": "Etherscan",
-        "url": "https://etherscan.io/"
-      },
-      "status": "active",
-      "featured": false,
-      "verified": false,
-      "addedAt": "2026-11-15",
       "supportedClients": [
         "android"
       ]
