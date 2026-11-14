@@ -104,3 +104,26 @@ as a separate list. All sources pass the same strict parser and client filter.
 The additive `supportedClients` field keeps wire version 1 readable by published
 Android APKs; cache/query revision 2 invalidates unclassified client data.
 Neither registry membership nor this client filter grants wallet permissions.
+
+## Catalog curation
+
+Use canonical public application URLs and list only networks supported by both
+the application and the client provider. Check current project documentation,
+public service status, and wallet connection interfaces before adding entries.
+Withdrawal-only or discontinued products must not be introduced as active apps.
+Popularity and published audits do not establish that an application is risk-free;
+`verified` continues to mean registry identity only.
+
+Chiliz application URLs are linked from [Chiliz](https://www.chiliz.com/) and its
+[staking documentation](https://docs.chiliz.com/learn/about-staking/stake-your-chz).
+The catalog includes Kayen Finance and the official bridge, staking portal, and
+explorer. Revoke.cash documents Chiliz in its [supported networks](https://revoke.cash/learn/faq).
+These entries support Android; Telegram compatibility remains unproven.
+
+Network metadata should follow current deployments, for example
+[Pendle](https://docs.pendle.finance/pendle-v2-dev/Deployments),
+[CoW Protocol](https://github.com/cowprotocol/cow-sdk), and
+[Yearn](https://docs.yearn.fi/getting-started/guides/using-yearn-v3).
+Consumers may use network metadata for search and filters without displaying
+all networks on every catalog row. Project icons retain their respective owners'
+branding; use public project assets or favicons rather than generated logos.

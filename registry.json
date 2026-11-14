@@ -112,6 +112,182 @@
       ]
     },
     {
+      "id": "arbiscan",
+      "name": "Arbiscan",
+      "description": "Explore transactions, accounts, tokens, and contracts on Arbitrum One.",
+      "url": "https://arbiscan.io/",
+      "icon": "assets/dapps/arbiscan.png",
+      "chains": [
+        "arbitrum"
+      ],
+      "categories": [
+        "explorer"
+      ],
+      "developer": {
+        "name": "Etherscan",
+        "url": "https://etherscan.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "basescan",
+      "name": "BaseScan",
+      "description": "Explore transactions, accounts, tokens, and contracts on Base.",
+      "url": "https://basescan.org/",
+      "icon": "assets/dapps/basescan.png",
+      "chains": [
+        "base"
+      ],
+      "categories": [
+        "explorer"
+      ],
+      "developer": {
+        "name": "Etherscan",
+        "url": "https://etherscan.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "beefy",
+      "name": "Beefy",
+      "description": "Explore automated yield vaults and manage supported DeFi positions.",
+      "url": "https://app.beefy.com/",
+      "icon": "assets/dapps/beefy.png",
+      "chains": [
+        "ethereum",
+        "bnb",
+        "base",
+        "arbitrum",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Beefy",
+        "url": "https://beefy.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "bscscan",
+      "name": "BscScan",
+      "description": "Explore transactions, accounts, tokens, and contracts on BNB Smart Chain.",
+      "url": "https://bscscan.com/",
+      "icon": "assets/dapps/bscscan.png",
+      "chains": [
+        "bnb"
+      ],
+      "categories": [
+        "explorer"
+      ],
+      "developer": {
+        "name": "Etherscan",
+        "url": "https://etherscan.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "chiliz-bridge",
+      "name": "Chiliz Bridge",
+      "description": "Bridge supported assets between Chiliz Chain and other available networks.",
+      "url": "https://bridge.chilizchain.com/",
+      "icon": "assets/dapps/chiliz.png",
+      "chains": [
+        "chiliz",
+        "ethereum",
+        "base"
+      ],
+      "categories": [
+        "bridge"
+      ],
+      "developer": {
+        "name": "Chiliz",
+        "url": "https://www.chiliz.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-14",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "chiliz-explorer",
+      "name": "Chiliz Explorer",
+      "description": "Explore transactions, accounts, tokens, and contracts on Chiliz Chain.",
+      "url": "https://scan.chiliz.com/",
+      "icon": "assets/dapps/chiliz.png",
+      "chains": [
+        "chiliz"
+      ],
+      "categories": [
+        "explorer"
+      ],
+      "developer": {
+        "name": "Chiliz",
+        "url": "https://www.chiliz.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-14",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "chiliz-staking",
+      "name": "Chiliz Staking",
+      "description": "Delegate CHZ to validators and manage staking on the official Chiliz portal.",
+      "url": "https://app.chilizchain.com/staking",
+      "icon": "assets/dapps/chiliz.png",
+      "chains": [
+        "chiliz"
+      ],
+      "categories": [
+        "defi",
+        "governance"
+      ],
+      "developer": {
+        "name": "Chiliz",
+        "url": "https://www.chiliz.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-14",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
       "id": "compound",
       "name": "Compound",
       "description": "Supply collateral and borrow supported assets through Compound.",
@@ -132,6 +308,58 @@
       "featured": false,
       "verified": false,
       "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "convex",
+      "name": "Convex Finance",
+      "description": "Explore liquidity staking and reward management for supported protocols.",
+      "url": "https://www.convexfinance.com/",
+      "icon": "assets/dapps/convex.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Convex Finance",
+        "url": "https://www.convexfinance.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "cow-swap",
+      "name": "CoW Swap",
+      "description": "Compare and trade token pairs through intent-based swap execution.",
+      "url": "https://swap.cow.fi/",
+      "icon": "assets/dapps/cow-swap.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum",
+        "polygon",
+        "bnb"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "CoW DAO",
+        "url": "https://cow.fi/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
       "supportedClients": [
         "android"
       ]
@@ -194,6 +422,35 @@
       ]
     },
     {
+      "id": "defillama-swap",
+      "name": "LlamaSwap",
+      "description": "Compare quotes from multiple swap aggregators in one interface.",
+      "url": "https://swap.defillama.com/",
+      "icon": "assets/dapps/defillama-swap.png",
+      "chains": [
+        "ethereum",
+        "bnb",
+        "base",
+        "arbitrum",
+        "optimism",
+        "polygon"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "DefiLlama",
+        "url": "https://defillama.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
       "id": "dydx",
       "name": "dYdX",
       "description": "Connect an EVM or Solana wallet to access perpetual trading on dYdX Chain.",
@@ -219,6 +476,31 @@
       ]
     },
     {
+      "id": "ens",
+      "name": "ENS",
+      "description": "Find and manage Ethereum names and onchain identity profiles.",
+      "url": "https://app.ens.domains/",
+      "icon": "assets/dapps/ens.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "tools",
+        "nft"
+      ],
+      "developer": {
+        "name": "ENS Labs",
+        "url": "https://ens.domains/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
       "id": "ether-fi",
       "name": "ether.fi",
       "description": "Stake ETH and explore liquid restaking products.",
@@ -238,6 +520,30 @@
       "featured": false,
       "verified": false,
       "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "description": "Explore transactions, accounts, tokens, and contracts on Ethereum.",
+      "url": "https://etherscan.io/",
+      "icon": "assets/dapps/etherscan.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "explorer"
+      ],
+      "developer": {
+        "name": "Etherscan",
+        "url": "https://etherscan.io/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
       "supportedClients": [
         "android"
       ]
@@ -316,6 +622,30 @@
       "featured": false,
       "verified": false,
       "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "kayen",
+      "name": "Kayen Finance",
+      "description": "Trade Fan Tokens, provide liquidity, and explore liquid staking on Chiliz Chain.",
+      "url": "https://app.kayen.finance/",
+      "icon": "assets/dapps/kayen.png",
+      "chains": [
+        "chiliz"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Kayen Finance",
+        "url": "https://www.kayen.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-14",
       "supportedClients": [
         "android"
       ]
@@ -452,6 +782,35 @@
       ]
     },
     {
+      "id": "pendle",
+      "name": "Pendle",
+      "description": "Explore yield markets, principal tokens, and liquidity positions.",
+      "url": "https://app.pendle.finance/",
+      "icon": "assets/dapps/pendle.png",
+      "chains": [
+        "ethereum",
+        "bnb",
+        "arbitrum",
+        "base",
+        "optimism",
+        "hyperliquid"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Pendle",
+        "url": "https://www.pendle.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
       "id": "revoke-cash",
       "name": "Revoke.cash",
       "description": "Inspect and revoke token approvals and wallet permissions.",
@@ -463,7 +822,8 @@
         "base",
         "bnb",
         "optimism",
-        "polygon"
+        "polygon",
+        "chiliz"
       ],
       "categories": [
         "tools"
@@ -505,6 +865,84 @@
       ]
     },
     {
+      "id": "safe",
+      "name": "Safe",
+      "description": "Connect an owner wallet to view and manage multisignature accounts.",
+      "url": "https://app.safe.global/",
+      "icon": "assets/dapps/safe.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "bnb"
+      ],
+      "categories": [
+        "wallet",
+        "tools"
+      ],
+      "developer": {
+        "name": "Safe",
+        "url": "https://safe.global/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "sky",
+      "name": "Sky",
+      "description": "Access the Sky ecosystem and manage supported stablecoin positions.",
+      "url": "https://app.sky.money/",
+      "icon": "assets/dapps/sky.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Sky",
+        "url": "https://sky.money/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "spark",
+      "name": "Spark",
+      "description": "Explore supported savings vaults and collateral-backed borrowing markets.",
+      "url": "https://app.spark.finance/",
+      "icon": "assets/dapps/spark.png",
+      "chains": [
+        "ethereum"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Spark",
+        "url": "https://spark.finance/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
       "id": "stargate",
       "name": "Stargate",
       "description": "Transfer supported assets between networks using cross-chain liquidity.",
@@ -529,6 +967,35 @@
       "featured": false,
       "verified": false,
       "addedAt": "2026-11-13",
+      "supportedClients": [
+        "android"
+      ]
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi",
+      "description": "Swap supported tokens and explore liquidity across multiple networks.",
+      "url": "https://www.sushi.com/swap",
+      "icon": "assets/dapps/sushi.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "bnb"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Sushi",
+        "url": "https://www.sushi.com/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
       "supportedClients": [
         "android"
       ]
@@ -789,6 +1256,33 @@
       "supportedClients": [
         "android",
         "telegram"
+      ]
+    },
+    {
+      "id": "yearn",
+      "name": "Yearn",
+      "description": "Browse yield vaults and manage supported automated DeFi strategies.",
+      "url": "https://yearn.fi/vaults",
+      "icon": "assets/dapps/yearn.png",
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum",
+        "polygon"
+      ],
+      "categories": [
+        "defi"
+      ],
+      "developer": {
+        "name": "Yearn",
+        "url": "https://yearn.fi/"
+      },
+      "status": "active",
+      "featured": false,
+      "verified": false,
+      "addedAt": "2026-11-15",
+      "supportedClients": [
+        "android"
       ]
     },
     {
